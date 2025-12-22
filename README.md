@@ -17,3 +17,12 @@ uvicorn app.main:app --reload
 ```
 
 Open: http://localhost:8000/health
+
+## Roadmap (early ideas)
+
+- [ ] Rich intent schema (capabilities, constraints, risk tiers)
+- [ ] Deterministic topology selection rules
+- [ ] Capability diffing across versions
+- [ ] Export adapters for agent runtimes (e.g. LangGraph)
+- [ ] Design-time approval workflows
+
