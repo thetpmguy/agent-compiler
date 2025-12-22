@@ -1,0 +1,12 @@
+{
+  "topology": "retrieve_draft_review_publish",
+  "risk_level": "medium",
+  "requires_approval": true,
+  "steps": [
+    "retrieve_knowledge",
+    "draft_response",
+    "confidence_check",
+    "human_approval",
+    "publish"
+  ]
+}

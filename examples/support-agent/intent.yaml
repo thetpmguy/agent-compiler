@@ -1,0 +1,14 @@
+goal: Draft support replies safely
+domain: support
+knowledge_required: true
+tools_requested:
+  - kb.search
+  - zendesk.read_ticket
+  - gmail.draft
+constraints:
+  - no_payments_access
+  - no_password_requests
+actions:
+  send_email:
+    enabled: false
+    requires_approval: true
