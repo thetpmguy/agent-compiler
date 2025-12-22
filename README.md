@@ -7,6 +7,20 @@ Intent → Plan → Diff → Publish
 
 It does NOT execute agents. It generates **reviewable artifacts** that can later be consumed by runtimes like LangGraph.
 
+## Philosophy
+
+This project focuses on **design-time decisions**, not runtime autonomy.
+
+Agents should not decide:
+- what they are allowed to do
+- which tools they can access
+- when humans must approve actions
+
+Those decisions belong in a compile-time layer.
+
+This repository explores what that layer could look like.
+
+
 ## Run locally
 ```bash
 cd backend
