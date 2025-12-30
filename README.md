@@ -7,6 +7,11 @@ Intent → Plan → Diff → Publish
 
 It does NOT execute agents. It generates **reviewable artifacts** that can later be consumed by runtimes like LangGraph.
 
+<img width="1338" height="619" alt="compiler" src="https://github.com/user-attachments/assets/3b560ada-68c4-410a-9163-f275c0eb30f1" />
+<img width="1078" height="765" alt="agentcompiler" src="https://github.com/user-attachments/assets/8f3d3902-4402-4dce-b0d6-4a04f44a430d" />
+
+
+
 ## Philosophy
 
 This project focuses on **design-time decisions**, not runtime autonomy.
